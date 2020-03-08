@@ -1,0 +1,20 @@
+.CalcScreen {
+    font-size:2em;
+    height:2.5em;
+    background-color: #7E8C74;
+    margin-left: 8px;
+    border-radius:3px;
+    border:1px solid #222;
+    margin-top: 4px;
+    margin-bottom:4px;
+    font-family:monospace;
+}
+.CalcText1 {
+    text-align:left;
+}
+.CalcText1::before {
+    content:":";
+}
+.CalcText2 {
+    text-align:right;
+}

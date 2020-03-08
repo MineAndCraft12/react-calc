@@ -1,0 +1,31 @@
+.CalcButton {
+    margin-left:8px;
+    display:inline-block;
+    width:3em;
+    height:2em;
+    background-color:#333;
+    border: 1px solid #222;
+    border-radius: 3px;
+    font-family:monospace;
+    font-size:2em;
+    cursor:default;
+}
+
+.ButtonText1 {
+    color:#FFF;
+    height:2em;
+    width:3em;
+    position:absolute;
+    line-height:2em;
+    text-align:center;
+}
+
+.ButtonText2 {
+    font-size:0.5em;
+    color: #AAA;
+    position:absolute;
+    height:2em;
+    width:calc(6em - 6px);
+    margin-top:3px;
+    text-align:right;
+}
